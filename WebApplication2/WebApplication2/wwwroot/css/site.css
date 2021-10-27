@@ -10,13 +10,14 @@ h3 {
   }
 
 
-.SquareContainer {
+#SquareContainer {
     width: 400px; 
     height: 400px; 
     position: relative; 
+    background-color: lightpink;
 }
 
-.SquareAnimation {
+#SquareAnimation {
     width: 50px; 
     height: 50px; 
     position: absolute; 

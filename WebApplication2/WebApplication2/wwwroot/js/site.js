@@ -4,9 +4,9 @@
 // Write your Javascript code.
 
 
-var id = null;
 function Square() {
-    var elem = document.getElementById("myAnimation");
+    var id = null; 
+    var elem = document.getElementById("SquareAnimation");
     var pos = 0;
     clearInterval(id);
     id = setInterval(frame, 10);
